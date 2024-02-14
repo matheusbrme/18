@@ -92,12 +92,15 @@ function draw() {
 }
 if (arrowGroup.isTouching(blueB)) {
   blueB.destroyEach();
+    score = score + 50
 }
 if (arrowGroup.isTouching(greenB)) {
   greenB.destroyEach();
+    score = score + 100
 }
 if (arrowGroup.isTouching(pinkB)) {
  pinkB.destroyEach();
+    score = score + 150
 }
  
   if (gameState === END) {
